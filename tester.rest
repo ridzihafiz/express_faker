@@ -1,0 +1,13 @@
+### create user
+POST http://localhost:9000/api/user/create
+Content-Type: application/json
+
+{
+  "username": "hafiz",
+  "email": "hafiz@gmail.com",
+  "password": "1234"
+}
+
+### read user
+GET http://localhost:9000/api/users/read
+Content-Type: application/json
