@@ -9,5 +9,5 @@ Content-Type: application/json
 }
 
 ### read user
-GET http://localhost:9000/api/users/read
+GET http://localhost:9000/api/users/read?page=11&limit=10
 Content-Type: application/json
